@@ -1,5 +1,11 @@
 # WebAssembly
 
+## Table of Contents
+- [Gaming](#want-to-play-a-game-during-the-presentation)
+- [Description](#what-is-webassembly)
+- [Pipeline](#how-it-works)
+- [Perspective](#perspective-from-web-application)
+
 ## Want to Play a Game During The Presentation?
 - Explore a 3D space station and fight robots: https://beta.unity3d.com/jonas/AngryBots/
 - Arena Shooter (very doom-isk): https://kripken.github.io/misc-js-benchmarks/banana/index.html
