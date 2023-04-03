@@ -24,3 +24,25 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 
 <img src="image/perspective.png" width="60%">
 
+
+## Pros of WebAssembly
+- **Multiple Language support** WebAssembly enables compiled languages such as C, C++, Rust, and Go to run natively in the browser, providing developers an alternative to JavaScript for building high-performance web applications.
+  - [Yew](https://yew.rs/)
+  - [AssemblyScript](https://www.assemblyscript.org/)
+  - [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
+  - [Emscripten](https://emscripten.org/docs/introducing_emscripten/index.html)
+
+- **Faster, Efficient and Portable** WebAssembly binary files are smaller than JavaScript files, leading to faster loading times and execution speeds, which can improve the performance of web applications.
+
+- **Easy to understand and debug** − WebAssembly enables developers to compile code from other languages into a binary format that can be executed in the browser, providing a simple alternative to writing WebAssembly code, while also supporting a text format for debugging and editing 
+
+
+- **Security** WebAssembly prioritizes security by isolating module execution in a sandboxed environment, enforcing browser security policies, and supporting developers to create secure applications.
+
+
+## Cons of WebAssembly
+- **security issue** it is possible that security issues may arise, making it simpler for criminals to conceal malware, phishing attacks, and other malicious activities
+
+- **DOM manipulation** WebAssembly is not yet capable of interacting with the Document Object Model (DOM) and it still relies on JavaScript for DOM manipulation.
+  
+- **garbage collection** WebAssembly lacks garbage collection for automatic memory management.
