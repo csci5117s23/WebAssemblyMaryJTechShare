@@ -11,10 +11,10 @@ WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based 
 WebAssembly is not quite an assembly language, its tool made for the browser. It acts as more of a virtual machine similar to Java Virtual Machine and the Python Virtual Machine but has multi-language support.
 
 ### .wat & .wasm
-<img src="image/watvswasm.png">
+<img src="image/watvswasm.png" width="60%">
 
 ## Perspective From Web Application
 WebAssembly goal is not to replace JavaScript, but to relieve computationally heavy tasks to faster and less error prone languages. Due to this, load times and possible 3D rendering tasks aren't regulated by the slow speed of JavaScript.
 
-<img src="image/perspective.png">
+<img src="image/perspective.png" width="60%">
 
