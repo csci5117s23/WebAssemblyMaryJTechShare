@@ -1,3 +1,10 @@
+// How to compile:
+// > emcc memory.c -o memory.js
+//   - This creates a .wasm and .js file.
+//   - Modify the .js file as needed.
+// > python3 -m http.server 5000
+//   - Can alternatively use other commands to get localhost.
+
 #include <emscripten.h>
 #include <stdio.h>
 
