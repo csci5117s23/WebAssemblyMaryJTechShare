@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Memory Example</title>
+</head>
+
+<body>
+  <script>
+    let memory = new WebAssembly.Memory({
+      // allocating space for memory
+      initial: 8,
+      maximum: 8
+    });
+
+    let exports;
+    WebAssembly.instantiateStreaming(
+      fetch("memory.wasm"), {
+      // pass in environment object
+      js: {
+        mem: memory
+      }
+    }).then(results => {
+      exports = results.instance.exports;
+      memory = results.instance.exports.memory; // set pointer to memory
+    });
+
+    function runWasm() {
+      const arr = new Uint32Array(memory.buffer);
+      arr.set([10,3]);
+
+      var sum = exports.sumArray(0, 2);
+      document.querySelector("#return").innerHTML += `${sum}<br>`;
+    }
+
+  </script>
+  <button onclick="runWasm()">sum the array</button>
+  <p id="return"></p>
+</body>
+
+</html>
