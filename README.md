@@ -52,6 +52,7 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
   - [Synthetic Benchmarks](https://takahirox.github.io/WebAssembly-benchmark/)
   - [PSPDFKit WASM](https://pspdfkit.com/webassembly-benchmark/)
   - [PSPDFKit Javascript](https://pspdfkit.com/webassembly-benchmark/?disableWebAssembly=true)
+  - [Animation Demo](http://aws-website-webassemblyskeletalanimation-ffaza.s3-website-us-east-1.amazonaws.com/)
   
 - **Results:**
 <details>
