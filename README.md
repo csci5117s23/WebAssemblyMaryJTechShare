@@ -46,3 +46,21 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 - **DOM manipulation** WebAssembly is not yet capable of interacting with the Document Object Model (DOM) and it still relies on JavaScript for DOM manipulation.
   
 - **garbage collection** WebAssembly lacks garbage collection for automatic memory management.
+
+## Benchmarks
+- **Benchmark Sites:**
+  - [Synthetic Benchmarks](https://takahirox.github.io/WebAssembly-benchmark/)
+  - [PSPDFKit WASM](https://pspdfkit.com/webassembly-benchmark/)
+  - [PSPDFKit Javascript](https://pspdfkit.com/webassembly-benchmark/?disableWebAssembly=true)
+  
+- **Results:**
+  - Synthetic Benchmarks Fib
+  - ![Synthetic Benchmarks Fib](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/wasmfib.png?raw=true)
+  - Synthetic Benchmarks Sort
+  - ![Synthetic Benchmarks Sort](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/wasmsort.png?raw=true)
+  - Synthetic Benchmarks Grayscale
+  - ![Synthetic Benchmarks Grayscale](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/wasmgrayscale.png?raw=true)
+  - PSPDFKit WASM
+  - ![PSPDFKit WASM](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/wasmpdfpng.png?raw=true)
+  - PSPDFKit Javascript
+  - ![PSPDFKit Javascript](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/jspdf.png?raw=true)
