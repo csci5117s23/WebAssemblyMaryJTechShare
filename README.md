@@ -140,7 +140,7 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 ### Unity - WebGL
 
 - Unity’s WebGL build option allows you to build Unity games that can run in the browser
-- WebGL switched to using the Emscripten toolchain (for WebAssembly) to cross compile Unity’s C/C++ runtime code to JavaScript
+- WebGL switched to using the Emscripten toolchain to cross compile Unity’s C/C++ runtime code to WebAssembly
 - They concluded that, “WebAssembly is **faster**, **smaller**, and more **memory-efficient** than asm.js, which are all pain points of the Unity WebGL export.”
 
 <p align="center">
