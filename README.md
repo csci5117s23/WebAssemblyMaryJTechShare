@@ -27,10 +27,43 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 
 ## Pros of WebAssembly
 - **Multiple Language support** WebAssembly enables compiled languages such as C, C++, Rust, and Go to run natively in the browser, providing developers an alternative to JavaScript for building high-performance web applications.
-  - [Yew](https://yew.rs/)
-  - [AssemblyScript](https://www.assemblyscript.org/)
-  - [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
-  - [Emscripten](https://emscripten.org/docs/introducing_emscripten/index.html)
+  - Framework:
+    - [Yew](https://yew.rs/)
+      - Yew code:
+      ```rust
+            fn my_functional_component() -> Html {
+              let (count, set_count) = useState(|| 0); // Initialize count to 0
+
+              html! {
+                <div>
+                      <h1>{"Hello, World!"}</h1>
+                      <p>{"This is a functional component in Yew."}</p>
+                      <p>{"Count: "}{count}</p>
+                      <button onclick={move |_| set_count(count + 1)}>{"Increment"}</button>
+                  </div>
+                }
+            }
+      ```
+      
+      - React code:
+    ```javascript
+      const MyReactComponent = () => {
+      const [count, setCount] = useState(0); // Initialize count to 0
+
+      return (
+          <div>
+            <h1>Hello, World!</h1>
+            <p>This is a functional component in React.</p>
+            <p>Count: {count}</p>
+            <button onClick={() => setCount(count + 1)}>Increment</button>
+          </div>
+         );
+      };
+    ```
+  - Toolkit
+    - [AssemblyScript](https://www.assemblyscript.org/)
+    - [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
+    - [Emscripten](https://emscripten.org/docs/introducing_emscripten/index.html)
 
 - **Faster, Efficient and Portable** WebAssembly binary files are smaller than JavaScript files, leading to faster loading times and execution speeds, which can improve the performance of web applications.
 
