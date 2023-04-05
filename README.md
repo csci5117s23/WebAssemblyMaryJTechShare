@@ -122,3 +122,53 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 ![PSPDFKit Javascript](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/jspdf.png?raw=true)
 
 </details>
+
+
+## What has been done with WebAssembly?
+
+- Many companies have incorporated it into their development processes since its conception
+
+### Use Cases
+
+- The main use cases put forward by the official WebAssembly collective
+    - Graphically intensive games  **(Unity)**
+    - Image/video editing  (**Adobe)**
+    - Image recognition, VR, and augmented reality  **(Google Earth)**
+    - CAD applications  **(AutoCAD)**
+    - etc.
+
+### Unity - WebGL
+
+- Unity’s WebGL build option allows you to build Unity games that can run in the browser
+- WebGL switched to using the Emscripten toolchain (for WebAssembly) to cross compile Unity’s C/C++ runtime code to JavaScript
+- They concluded that, “WebAssembly is faster, smaller, and more memory-efficient than asm.js, which are all pain points of the Unity WebGL export.”
+
+![webgl.png](/image/webgl.png)
+
+source: [https://blog.unity.com/technology/webassembly-is-here](https://blog.unity.com/technology/webassembly-is-here)
+
+### AutoCAD
+
+- One year after WebAssembly’s initial launch, the AutoCAD team was able to run their 35 year-old C/C++ codebase natively as a web app using WebAssembly (Emscripten)
+- This was a major step for WebAssembly since it demonstrated that large computationally intensive programs could be easily ported to the web
+- Some have speculated that WebAssembly might lead to the end of traditional desktop applications
+
+![autocad_example.png](/image/autocad_example.png)
+
+source: [https://web.autocad.com/loginhttps://web.autocad.com/282b34e2128a1bd1ee1b7f23e8792740.png](https://web.autocad.com/282b34e2128a1bd1ee1b7f23e8792740.png)
+
+### Figma
+
+- A more modern example of WebAssembly improving tech actually comes from the new and popular design tool Figma
+- Figma uses react.js for its outer UI and a high performance C++ codebase for the inner editing tool
+- Using WebAssembly, they were able to cut load time of documents by 3x
+
+![figma_load_time_graph.webp](/image/figma_load_time_graph.webp)
+
+source: [https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/](https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/)
+
+## Conclusion
+
+- WebAssembly is meant to augment JavaScript, not replace it
+- It’s intended goal is to run web applications at near-native performance in the browser
+- It could lead to Desktop apps becoming easier to access through the web
