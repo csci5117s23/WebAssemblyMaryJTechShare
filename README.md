@@ -164,7 +164,7 @@ source: [https://web.autocad.com/loginhttps://web.autocad.com/282b34e2128a1bd1ee
 ### Figma
 
 - A more modern example of WebAssembly improving tech actually comes from the new and popular design tool Figma
-- Figma uses react.js for its outer UI and a high performance C++ codebase for the inner editing tool
+- Figma uses react.js for its outer UI and a high performance C++ codebase for the actual document editing tool
 - Using WebAssembly, they were able to cut load time of documents by 3x
 
 <p align="center">
