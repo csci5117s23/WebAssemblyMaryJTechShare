@@ -5,6 +5,12 @@
 - [Description](#what-is-webassembly)
 - [Pipeline](#how-it-works)
 - [Perspective](#perspective-from-web-application)
+- [Pros of WebAssembly](#pros-of-webassembly)
+- [Cons of WebAssembly](#cons-of-webassembly)
+- [Benchmarks](#benchmarks)
+- [Live coding](#live-coding)
+- [Examples of industry applications ](#what-has-been-done-with-webassembly)
+- [Conclusion](#conclusion)
 
 ## Want to Play a Game During The Presentation?
 - Explore a 3D space station and fight robots: https://beta.unity3d.com/jonas/AngryBots/
@@ -67,14 +73,14 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 
 - **Faster, Efficient and Portable** WebAssembly binary files are smaller than JavaScript files, leading to faster loading times and execution speeds, which can improve the performance of web applications.
 
-- **Easy to understand and debug** − WebAssembly enables developers to compile code from other languages into a binary format that can be executed in the browser, providing a simple alternative to writing WebAssembly code, while also supporting a text format for debugging and editing 
+- **Easy to understand and debug** − WebAssembly enables developers to compile code from other languages into a binary format that can be executed in the browser, providing a simple alternative to writing WebAssembly code, while also supporting a text format for debugging and editing.
 
 
 - **Security** WebAssembly prioritizes security by isolating module execution in a sandboxed environment, enforcing browser security policies, and supporting developers to create secure applications.
 
 
 ## Cons of WebAssembly
-- **security issue** it is possible that security issues may arise, making it simpler for criminals to conceal malware, phishing attacks, and other malicious activities
+- **security issue** it is possible that security issues may arise, making it simpler for criminals to conceal malware, phishing attacks, and other malicious activities.
 
 - **DOM manipulation** WebAssembly is not yet capable of interacting with the Document Object Model (DOM) and it still relies on JavaScript for DOM manipulation.
   
@@ -122,6 +128,10 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 ![PSPDFKit Javascript](https://github.com/csci5117s23/WebAssemblyMaryJTechShare/blob/main/image/jspdf.png?raw=true)
 
 </details>
+
+## Live coding
+
+- Setup link for [emscripten](https://emscripten.org/docs/getting_started/downloads.html)
 
 
 ## What has been done with WebAssembly?
