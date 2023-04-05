@@ -52,21 +52,21 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
       ```
       
       - React code:
-    ```javascript
-      const MyReactComponent = () => {
-      const [count, setCount] = useState(0); // Initialize count to 0
+      ```javascript
+        const MyReactComponent = () => {
+        const [count, setCount] = useState(0); // Initialize count to 0
 
-      return (
-          <div>
-            <h1>Hello, World!</h1>
-            <p>This is a functional component in React.</p>
-            <p>Count: {count}</p>
-            <button onClick={() => setCount(count + 1)}>Increment</button>
-          </div>
-         );
-      };
-    ```
-  - Toolkit
+        return (
+            <div>
+              <h1>Hello, World!</h1>
+              <p>This is a functional component in React.</p>
+              <p>Count: {count}</p>
+              <button onClick={() => setCount(count + 1)}>Increment</button>
+            </div>
+           );
+        };
+      ```
+  - Toolkits:
     - [AssemblyScript](https://www.assemblyscript.org/)
     - [wasm-pack](https://rustwasm.github.io/docs/wasm-pack/)
     - [Emscripten](https://emscripten.org/docs/introducing_emscripten/index.html)
