@@ -161,7 +161,7 @@ source: [https://blog.unity.com/technology/webassembly-is-here](https://blog.uni
 
 ### AutoCAD
 
-- One year after WebAssembly’s initial launch, the AutoCAD team was able to run their 35 year-old C/C++ codebase natively as a web app using WebAssembly (Emscripten)
+- One year after WebAssembly’s initial launch, the AutoCAD team was able to run their 35 year-old native C/C++ codebase as a web app using WebAssembly (Emscripten)
 - This was a major step for WebAssembly since it demonstrated that large computationally intensive programs could be easily ported to the web
 - Some have speculated that WebAssembly might lead to the end of traditional desktop applications
 
