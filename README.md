@@ -131,8 +131,8 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 ### Use Cases
 
 - The main use cases put forward by the official WebAssembly collective
-    - Graphically intensive games  **(Unity)**
-    - Image/video editing  (**Adobe)**
+    - Graphically intensive games  **(Unity - WebGL)**
+    - Image/video editing  (**Adobe Photoshop)**
     - Image recognition, VR, and augmented reality  **(Google Earth)**
     - CAD applications  **(AutoCAD)**
     - etc.
