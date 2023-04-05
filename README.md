@@ -143,7 +143,9 @@ WebAssembly goal is not to replace JavaScript, but to relieve computationally he
 - WebGL switched to using the Emscripten toolchain (for WebAssembly) to cross compile Unity’s C/C++ runtime code to JavaScript
 - They concluded that, “WebAssembly is faster, smaller, and more memory-efficient than asm.js, which are all pain points of the Unity WebGL export.”
 
-![webgl.png](/image/webgl.png)
+<p align="center">
+  <img src="/image/webgl.png" width=65% center>
+</p>
 
 source: [https://blog.unity.com/technology/webassembly-is-here](https://blog.unity.com/technology/webassembly-is-here)
 
@@ -153,7 +155,9 @@ source: [https://blog.unity.com/technology/webassembly-is-here](https://blog.uni
 - This was a major step for WebAssembly since it demonstrated that large computationally intensive programs could be easily ported to the web
 - Some have speculated that WebAssembly might lead to the end of traditional desktop applications
 
-![autocad_example.png](/image/autocad_example.png)
+<p align="center">
+  <img src="/image/autocad_example.png" width=65% center>
+</p>
 
 source: [https://web.autocad.com/loginhttps://web.autocad.com/282b34e2128a1bd1ee1b7f23e8792740.png](https://web.autocad.com/282b34e2128a1bd1ee1b7f23e8792740.png)
 
@@ -163,7 +167,9 @@ source: [https://web.autocad.com/loginhttps://web.autocad.com/282b34e2128a1bd1ee
 - Figma uses react.js for its outer UI and a high performance C++ codebase for the inner editing tool
 - Using WebAssembly, they were able to cut load time of documents by 3x
 
-![figma_load_time_graph.webp](/image/figma_load_time_graph.webp)
+<p align="center">
+  <img src="/image/figma_load_time_graph.webp" width=65% center>
+</p>
 
 source: [https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/](https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/)
 
